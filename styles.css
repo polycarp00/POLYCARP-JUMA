@@ -1,0 +1,35 @@
+.landing-page{
+    background-color: #10b10a;
+    color:rgb(37, 37, 100)
+    
+}
+
+p{
+    border: 5px solid rgb(223, 24, 24);
+    margin: 20px;
+    padding: 10px;
+    font-size: 25px;
+    font-style: italic;
+}
+
+
+.navigation{
+    display: flex;
+    background-color: black;\
+    overflow-x: Scroll;
+}
+.navigation::-webkit-scrollbar{
+    display: none;
+}
+.navigation>li{
+color: white;
+margin-right: 10px;
+list-style: none;
+text-wrap:nowrap ;
+text-transform: uppercase;
+font-size: 10px;
+}
+
+.navigation> li:hover{
+    background-color: #9b1515;
+}
